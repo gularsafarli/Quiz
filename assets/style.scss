@@ -1,0 +1,71 @@
+header{
+    .container{
+          max-width:1120px;
+          margin:auto;
+          .page-top{
+              nav{
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    gap:40px;
+                    li{
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            color:gray;
+                        }
+                    }
+                }
+              }
+          }
+    }
+}
+#first-section{
+    .container{
+        max-width: 1120px;
+        margin: auto;
+        .form{
+            .form-left{
+                
+                .input{
+                    position: relative;
+                    input{
+                        padding: 15px 10px 15px 28px;
+                        width: 480px;
+                        border-radius: 10px;
+                        border:1px solid rgb(0, 110, 255);
+                    }
+                    svg{
+                        position: absolute;
+                        width: 14px;
+                        top:14px;
+                        left: 8px;
+                    }
+                }
+            }
+            
+        }
+        .form-right{
+            .check-in{
+                position: relative;
+                input{
+                  width: 200px;
+
+                }
+                svg{
+                    width: 14px;
+                    position: absolute;
+                }
+            }
+            .check-out{
+                position: relative;
+                input{
+                    width: 200px;
+                }
+                svg{
+
+                }
+            }
+        }
+    }
+}

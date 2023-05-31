@@ -1,0 +1,52 @@
+header .container {
+  max-width: 1120px;
+  margin: auto;
+}
+header .container .page-top nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+header .container .page-top nav ul li {
+  list-style-type: none;
+}
+header .container .page-top nav ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+#first-section .container {
+  max-width: 1120px;
+  margin: auto;
+}
+#first-section .container .form .form-left .input {
+  position: relative;
+}
+#first-section .container .form .form-left .input input {
+  padding: 15px 10px 15px 28px;
+  width: 480px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 110, 255);
+}
+#first-section .container .form .form-left .input svg {
+  position: absolute;
+  width: 14px;
+  top: 14px;
+  left: 8px;
+}
+#first-section .container .form-right .check-in {
+  position: relative;
+}
+#first-section .container .form-right .check-in input {
+  width: 200px;
+}
+#first-section .container .form-right .check-in svg {
+  width: 14px;
+  position: absolute;
+}
+#first-section .container .form-right .check-out {
+  position: relative;
+}
+#first-section .container .form-right .check-out input {
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */
